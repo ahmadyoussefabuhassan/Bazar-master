@@ -11,13 +11,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..Bazar.Domain.csproj" />
+		<ProjectReference Include="..Bazar.Bazar.Domain.Domain.csproj" />
 		<ProjectReference Include="..Bazar.APIBazar.API.csproj" />
-		<ProjectReference Include="..Bazar.InfrastractureBazar.Infrastracture.csproj" />
-		<ProjectReference Include="..\Bazar.Domain\Bazar.Domain.csproj" />
+		<ProjectReference Include="..Bazar.Bazar.Infrastracture.Infrastracture.csproj" />
 	</ItemGroup>
 
 </Project>
+
+
 
 
 

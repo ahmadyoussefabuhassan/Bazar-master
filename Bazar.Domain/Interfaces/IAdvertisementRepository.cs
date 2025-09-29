@@ -1,0 +1,15 @@
+﻿using Bazar.Domain.Entitis;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bazar.Domain.Interfaces
+{
+    public interface IAdvertisementRepository : IRepository<Advertisements>
+    {
+        Task<IEnumerable<Advertisements>> GetActiveAdvertisementsAsync();
+        Task<IEnumerable<Advertisements>> GetAdvertisementsByCategoryAsync(int categoryId);
+    }
+}
